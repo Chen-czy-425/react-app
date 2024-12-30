@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    box-sizing: border-box;
+
+}
+input{
+    @apply border-2 border-gray-300 p-2 rounded-md;
+    line-height: 15px;
+    border-radius: 10px;
+    padding-left: 15px;
+
+}
+
+button{
+    width: 50rem;
+    height: 50rem;
+    font-size: 55rem;
+    line-height: 34rem;
+    border: 1px solid #000000;
+    background-color: #FCBF49;
+    border-radius: 50rem;
+    margin-right: 15rem;
+    margin-left: 15rem;
+}
